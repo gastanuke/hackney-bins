@@ -1,6 +1,9 @@
 name: Daily Council Data Scrape
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # Runs at 04:00 UTC daily
     - cron: '0 4 * * *'
