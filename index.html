@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Bin Collection Dashboard</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #121212; color: #E0E0E0; max-width: 500px; margin: 40px auto; padding: 20px; }
+        h1 { font-size: 1.5rem; text-align: center; margin-bottom: 5px; }
+        p.subtitle { text-align: center; color: #888; margin-top: 0; margin-bottom: 30px; font-size: 0.9rem; }
+        .card { display: flex; justify-content: space-between; align-items: center; padding: 15px 20px; margin-bottom: 12px; border-radius: 10px; background: #1E1E1E; }
+        .stream { font-weight: bold; font-size: 1.1rem; }
+        .date { font-size: 1rem; }
+        .rubbish { border-left: 6px solid #424242; }
+        .recycling { border-left: 6px solid #4CAF50; }
+        .food { border-left: 6px solid #795548; }
+        .footer { text-align: center; font-size: 0.75rem; color: #555; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <h1>Bin Collection Schedule</h1>
+    <p class="subtitle">74 Prince George Road, N16 8BY</p>
+
+    <div class="card rubbish">
+        <span class="stream">General Waste</span>
+        <span class="date" id="rubbish-date">Thursday 11th June</span>
+    </div>
+
+    <div class="card recycling">
+        <span class="stream">Recycling</span>
+        <span class="date" id="recycling-date">Thursday 4th June</span>
+    </div>
+
+    <div class="card food">
+        <span class="stream">Food Waste</span>
+        <span class="date" id="food-date">Thursday 4th June</span>
+    </div>
+
+    <div class="footer">
+        Last updated: <span id="sync-time">02/06/2026, 11:03:59</span>
+    </div>
+
+</body>
+</html>
