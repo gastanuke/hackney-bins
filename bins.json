@@ -1,15 +1,15 @@
 {
   "recycling": [
-    "no",
+    "yes",
     "thu"
   ],
   "food": [
-    "no",
+    "yes",
     "thu"
   ],
   "rubbish": [
     "no",
     "thu"
   ],
-  "last_updated": "2026-06-14 09:06:30"
+  "last_updated": "2026-06-15 10:50:43"
 }
